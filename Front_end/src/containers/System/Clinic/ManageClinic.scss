@@ -1,0 +1,57 @@
+.manage-specialty-container {
+    padding: 0 15px;
+
+    .ms-title {
+        text-align    : center;
+        color         : #0071ba;
+        margin        : 30px 0;
+        font-size     : 20px;
+        text-transform: uppercase;
+        font-weight   : 600;
+    }
+
+    .add-new-specialty {
+        padding: 0px 20px;
+
+        .form-top {
+            display: flex;
+
+            .name-clinic {
+                width: 600px;
+            }
+
+            .image-clinic {
+                width     : 500px;
+                border    : none;
+                height    : 35px;
+                margin-top: 20px;
+            }
+
+            label {
+                margin-right : 10px;
+                margin-bottom: 5px;
+            }
+        }
+
+        .address-clinic {
+            border       : none;
+            margin-top   : 10px;
+            margin-bottom: 20px;
+
+            label {
+                margin-bottom: 5px;
+            }
+        }
+
+        .btn-save-clinic {
+            border       : none;
+            background   : orange;
+            border-radius: 3px;
+            width        : 90px;
+            color        : white;
+            height       : 40px;
+            margin-left  : 9px;
+            margin-top   : 10px;
+        }
+    }
+}
